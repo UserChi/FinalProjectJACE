@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BA9E2A794D17001DBD43 /* SettingsView.swift */; };
 		BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */; };
 		BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF926512A78FB8A00CDFBED /* ContentView.swift */; };
 		BDF926542A78FB8B00CDFBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF926532A78FB8B00CDFBED /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD26BA9E2A794D17001DBD43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BDF9264C2A78FB8A00CDFBED /* FinalProjectJACE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectJACE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectJACEApp.swift; sourceTree = "<group>"; };
 		BDF926512A78FB8A00CDFBED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */,
 				BDF926512A78FB8A00CDFBED /* ContentView.swift */,
+				BD26BA9E2A794D17001DBD43 /* SettingsView.swift */,
 				BDF926532A78FB8B00CDFBED /* Assets.xcassets */,
 				BDF926552A78FB8B00CDFBED /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */,
 				BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */,
 				BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */,
 			);
