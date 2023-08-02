@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BA9E2A794D17001DBD43 /* SettingsView.swift */; };
+		BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */; };
+		BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */; };
 		BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */; };
 		BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A0042A794FF200D55D83 /* ResourcePage.swift */; };
 		BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		BD26BA9E2A794D17001DBD43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfEdu.swift; sourceTree = "<group>"; };
 		BDC5A0042A794FF200D55D83 /* ResourcePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePage.swift; sourceTree = "<group>"; };
 		BDF9264C2A78FB8A00CDFBED /* FinalProjectJACE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectJACE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +81,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDB87FFC2A7A985700B600AC /* Welcome Page */ = {
+			isa = PBXGroup;
+			children = (
+				BDF926512A78FB8A00CDFBED /* ContentView.swift */,
+				BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */,
+				BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */,
+			);
+			path = "Welcome Page";
+			sourceTree = "<group>";
+		};
+		BDB880012A7A9C5500B600AC /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		BDB880022A7A9C5D00B600AC /* Resources Page */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */,
+				BDC5A0042A794FF200D55D83 /* ResourcePage.swift */,
+			);
+			path = "Resources Page";
+			sourceTree = "<group>";
+		};
+		BDB880032A7A9C6900B600AC /* Settings Page */ = {
+			isa = PBXGroup;
+			children = (
+				BD26BA9E2A794D17001DBD43 /* SettingsView.swift */,
+			);
+			path = "Settings Page";
+			sourceTree = "<group>";
+		};
 		BDF926432A78FB8A00CDFBED = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */,
-				BDF926512A78FB8A00CDFBED /* ContentView.swift */,
-				BD26BA9E2A794D17001DBD43 /* SettingsView.swift */,
-				BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */,
-				BDC5A0042A794FF200D55D83 /* ResourcePage.swift */,
+				BDB880032A7A9C6900B600AC /* Settings Page */,
+				BDB880022A7A9C5D00B600AC /* Resources Page */,
+				BDB880012A7A9C5500B600AC /* Home Page */,
+				BDB87FFC2A7A985700B600AC /* Welcome Page */,
 				BDF926532A78FB8B00CDFBED /* Assets.xcassets */,
 				BDF926552A78FB8B00CDFBED /* Preview Content */,
 			);
@@ -266,10 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */,
 				BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */,
 				BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */,
 				BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */,
 				BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */,
+				BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */,
 				BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
