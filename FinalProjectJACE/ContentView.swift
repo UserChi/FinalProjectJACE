@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+let options = typesOfEdu
+            
+var body: some View {
+            VStack {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+            }
         }
-        .padding()
-    }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
