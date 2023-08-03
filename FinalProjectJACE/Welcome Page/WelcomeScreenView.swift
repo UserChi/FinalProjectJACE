@@ -36,6 +36,7 @@ struct WelcomeScreenView: View {
                     
                     HStack {
                         Text("New around here? ")
+                            .foregroundColor(Color("SecondaryColor"))
                             .multilineTextAlignment(.center)
                             .padding(.leading, 60.0)
                            

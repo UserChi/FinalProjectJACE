@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BA9E2A794D17001DBD43 /* SettingsView.swift */; };
+		BD8B1AD92A7BA35B003BC1C0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B1AD82A7BA35B003BC1C0 /* HomePage.swift */; };
 		BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */; };
 		BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */; };
 		BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		BD26BA9E2A794D17001DBD43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BD8B1AD82A7BA35B003BC1C0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfEdu.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		BDB880012A7A9C5500B600AC /* Home Page */ = {
 			isa = PBXGroup;
 			children = (
+				BD8B1AD82A7BA35B003BC1C0 /* HomePage.swift */,
 			);
 			path = "Home Page";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */,
 				BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */,
 				BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */,
+				BD8B1AD92A7BA35B003BC1C0 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
