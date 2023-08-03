@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BA9E2A794D17001DBD43 /* SettingsView.swift */; };
+		BD4D1CCD2A7BE85300D4F3A9 /* toolbarswiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CCC2A7BE85300D4F3A9 /* toolbarswiftui.swift */; };
+		BD4D1CCF2A7BE8FF00D4F3A9 /* ToGetTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CCE2A7BE8FF00D4F3A9 /* ToGetTo.swift */; };
+		BD4D1CD12A7BEB4D00D4F3A9 /* MentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CD02A7BEB4D00D4F3A9 /* MentalHealth.swift */; };
+		BD4D1CD42A7BED4E00D4F3A9 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CD32A7BED4E00D4F3A9 /* Timer.swift */; };
+		BD4D1CD72A7BEDAD00D4F3A9 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CD62A7BEDAD00D4F3A9 /* Notes.swift */; };
 		BD8B1AD92A7BA35B003BC1C0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B1AD82A7BA35B003BC1C0 /* HomePage.swift */; };
 		BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */; };
 		BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */; };
@@ -22,7 +27,6 @@
 		BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */; };
 		BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */; };
 		BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */; };
-		BDEF5DDF2A7BD45F001C2381 /* MentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */; };
 		BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */; };
 		BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF926512A78FB8A00CDFBED /* ContentView.swift */; };
 		BDF926542A78FB8B00CDFBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF926532A78FB8B00CDFBED /* Assets.xcassets */; };
@@ -51,6 +55,11 @@
 
 /* Begin PBXFileReference section */
 		BD26BA9E2A794D17001DBD43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BD4D1CCC2A7BE85300D4F3A9 /* toolbarswiftui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbarswiftui.swift; sourceTree = "<group>"; };
+		BD4D1CCE2A7BE8FF00D4F3A9 /* ToGetTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetTo.swift; sourceTree = "<group>"; };
+		BD4D1CD02A7BEB4D00D4F3A9 /* MentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealth.swift; sourceTree = "<group>"; };
+		BD4D1CD32A7BED4E00D4F3A9 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		BD4D1CD62A7BEDAD00D4F3A9 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		BD8B1AD82A7BA35B003BC1C0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		BDB87FFD2A7A988500B600AC /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
@@ -65,7 +74,6 @@
 		BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcseView.swift; sourceTree = "<group>"; };
 		BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewResources.swift; sourceTree = "<group>"; };
 		BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePageApp.swift; sourceTree = "<group>"; };
-		BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealth.swift; sourceTree = "<group>"; };
 		BDF9264C2A78FB8A00CDFBED /* FinalProjectJACE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectJACE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectJACEApp.swift; sourceTree = "<group>"; };
 		BDF926512A78FB8A00CDFBED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +111,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD4D1CC72A7BE7FF00D4F3A9 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D1CCE2A7BE8FF00D4F3A9 /* ToGetTo.swift */,
+				BD4D1CCC2A7BE85300D4F3A9 /* toolbarswiftui.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		BD4D1CD22A7BED4200D4F3A9 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D1CD32A7BED4E00D4F3A9 /* Timer.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		BD4D1CD52A7BEDA100D4F3A9 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D1CD62A7BEDAD00D4F3A9 /* Notes.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
 		BDB87FFC2A7A985700B600AC /* Welcome Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +160,7 @@
 				BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */,
 				BDC5A0042A794FF200D55D83 /* ResourcePage.swift */,
 				BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */,
-				BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */,
+				BD4D1CD02A7BEB4D00D4F3A9 /* MentalHealth.swift */,
 				BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */,
 				BDEF5DBC2A7BAD51001C2381 /* GcseAqa.swift */,
 				BDEF5DBA2A7BAD3A001C2381 /* GcseEdexcel.swift */,
@@ -171,6 +204,9 @@
 		BDF9264E2A78FB8A00CDFBED /* FinalProjectJACE */ = {
 			isa = PBXGroup;
 			children = (
+				BD4D1CD52A7BEDA100D4F3A9 /* Notes */,
+				BD4D1CD22A7BED4200D4F3A9 /* Clock */,
+				BD4D1CC72A7BE7FF00D4F3A9 /* ToolBar */,
 				BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */,
 				BDB880032A7A9C6900B600AC /* Settings Page */,
 				BDB880022A7A9C5D00B600AC /* Resources Page */,
@@ -339,20 +375,24 @@
 			files = (
 				BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */,
 				BDEF5DB32A7BAC81001C2381 /* ResourcesView.swift in Sources */,
+				BD4D1CCF2A7BE8FF00D4F3A9 /* ToGetTo.swift in Sources */,
 				BDEF5DBB2A7BAD3A001C2381 /* GcseEdexcel.swift in Sources */,
 				BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */,
 				BDEF5DB52A7BAD00001C2381 /* AltPathwayResources.swift in Sources */,
 				BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */,
 				BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */,
+				BD4D1CD12A7BEB4D00D4F3A9 /* MentalHealth.swift in Sources */,
+				BD4D1CD42A7BED4E00D4F3A9 /* Timer.swift in Sources */,
 				BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */,
 				BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */,
 				BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */,
-				BDEF5DDF2A7BD45F001C2381 /* MentalHealth.swift in Sources */,
 				BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */,
 				BDEF5DB92A7BAD29001C2381 /* AlevelResources.swift in Sources */,
+				BD4D1CD72A7BEDAD00D4F3A9 /* Notes.swift in Sources */,
 				BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */,
 				BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */,
 				BDEF5DBD2A7BAD51001C2381 /* GcseAqa.swift in Sources */,
+				BD4D1CCD2A7BE85300D4F3A9 /* toolbarswiftui.swift in Sources */,
 				BD8B1AD92A7BA35B003BC1C0 /* HomePage.swift in Sources */,
 				BDEF5DB72A7BAD18001C2381 /* UniResources.swift in Sources */,
 			);
