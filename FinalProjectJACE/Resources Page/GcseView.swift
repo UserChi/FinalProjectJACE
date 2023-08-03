@@ -14,57 +14,48 @@ struct GcseView: View {
             ZStack {
                 Color(red: (173/255), green: (232/255), blue: (244/255))
                 VStack {
+                    
                     Spacer()
-                    Text("GCSE RESOURCES:")
+                    Text("GCSE RESOURCE LINKS:")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .padding()
+                    Text("Exams taken by UK students at around age 16, marking the end of secondary education")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                   
+                    Image("aqa")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 150)
+                        .padding(.bottom, 1.0)
+                    Image("edexcel")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 200, height: 60)
+                        .padding(.bottom, 1.0)
                     
                     Text("Which exam board are you?")
+                        .fontWeight(.bold)
                         .padding()
                     NavigationLink(destination: GcseAqa()) {
                         Text("AQA")
+                            .foregroundColor(Color.black)
                         NavigationLink(destination: GcseEdexcel()) {
                             Text("Edexcel")
+                                .foregroundColor(Color.black)
                         }
                     }
                     Spacer()
                     
                 }
+
             }
             .ignoresSafeArea()
         }
-//                VStack {
 //
-//                    Text("GCSE RESOURCE LINKS:")
-//                        .font(.largeTitle)
-//                        .fontWeight(.bold)
-//                        .multilineTextAlignment(.center)
-//                        .padding(.vertical)
-
-//                    Link("freesciencelessons", destination: URL(string: "https://www.freesciencelessons.co.uk/")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Text("hello")
-//                    Link("TheGCSEMathsTutor", destination: URL(string: "https://www.youtube.com/c/TheGCSEMathsTutor")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Link("mr.bruff", destination: URL(string: "https://www.youtube.com/@mrbruff")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Link("Mr.Salles", destination: URL(string: "https://www.youtube.com/@MrSallesTeachesEnglish")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Link("Seneca", destination: URL(string: "https://senecalearning.com/en-GB/")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Link("Physics & Maths Tutor", destination: URL(string: "https://www.physicsandmathstutor.com/")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
-//                    Link("Study Rocket", destination: URL(string: "https://studyrocket.co.uk/")!)
-//                        .font(.title)
-//                        .foregroundStyle(Color.black)
                     
                     
             }

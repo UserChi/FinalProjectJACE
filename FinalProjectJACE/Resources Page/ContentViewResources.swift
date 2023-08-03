@@ -50,6 +50,12 @@ struct ContentViewResources: View {
                         .foregroundColor(Color.blue)
                         .padding(.leading, 97.0)
                 }
+                NavigationLink(destination: MentalHealth()) {
+                    Text("Mental Health Resources")
+                    Image(systemName: "book")
+                        .foregroundColor(Color.purple)
+                        .padding(.leading, 155)
+                }
 
 
                 

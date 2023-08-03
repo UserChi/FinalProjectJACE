@@ -22,6 +22,7 @@
 		BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */; };
 		BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */; };
 		BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */; };
+		BDEF5DDF2A7BD45F001C2381 /* MentalHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */; };
 		BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */; };
 		BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF926512A78FB8A00CDFBED /* ContentView.swift */; };
 		BDF926542A78FB8B00CDFBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF926532A78FB8B00CDFBED /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcseView.swift; sourceTree = "<group>"; };
 		BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewResources.swift; sourceTree = "<group>"; };
 		BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePageApp.swift; sourceTree = "<group>"; };
+		BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealth.swift; sourceTree = "<group>"; };
 		BDF9264C2A78FB8A00CDFBED /* FinalProjectJACE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectJACE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectJACEApp.swift; sourceTree = "<group>"; };
 		BDF926512A78FB8A00CDFBED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */,
 				BDC5A0042A794FF200D55D83 /* ResourcePage.swift */,
 				BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */,
+				BDEF5DDE2A7BD45F001C2381 /* MentalHealth.swift */,
 				BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */,
 				BDEF5DBC2A7BAD51001C2381 /* GcseAqa.swift */,
 				BDEF5DBA2A7BAD3A001C2381 /* GcseEdexcel.swift */,
@@ -344,6 +347,7 @@
 				BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */,
 				BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */,
 				BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */,
+				BDEF5DDF2A7BD45F001C2381 /* MentalHealth.swift in Sources */,
 				BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */,
 				BDEF5DB92A7BAD29001C2381 /* AlevelResources.swift in Sources */,
 				BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */,
