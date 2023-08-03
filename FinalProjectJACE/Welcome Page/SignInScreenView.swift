@@ -84,15 +84,14 @@ struct SignInScreenView: View {
                     Spacer()
                     
                     Spacer()
-                    Divider()
-                        .position (x: 179, y: 190)
+//                    Divider()
+//                        .position (x: 179, y: 190)
                     Text("Your info is safe with us.")
                         .foregroundColor(Color("BgColor"))
                         .position(x: 174, y: 100)
                     Text("Read our Terms & Conditions.")
                         .foregroundColor(Color("SecondaryColor"))
-                    Spacer()
-                    
+                   
                     
                 }
                 .padding()
