@@ -9,7 +9,16 @@ import SwiftUI
 
 struct HomePage: View {
     var body: some View {
-        Text("Transition from home page")
+        NavigationStack {
+            VStack{
+                NavigationLink(destination: ContentViewResources()) {
+                                            Text("resources")
+                
+                                        }
+            }
+        }
+        
+        
     }
 }
 

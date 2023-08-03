@@ -13,6 +13,15 @@
 		BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */; };
 		BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */; };
 		BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5A0042A794FF200D55D83 /* ResourcePage.swift */; };
+		BDEF5DB32A7BAC81001C2381 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DB22A7BAC81001C2381 /* ResourcesView.swift */; };
+		BDEF5DB52A7BAD00001C2381 /* AltPathwayResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DB42A7BAD00001C2381 /* AltPathwayResources.swift */; };
+		BDEF5DB72A7BAD18001C2381 /* UniResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DB62A7BAD18001C2381 /* UniResources.swift */; };
+		BDEF5DB92A7BAD29001C2381 /* AlevelResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DB82A7BAD29001C2381 /* AlevelResources.swift */; };
+		BDEF5DBB2A7BAD3A001C2381 /* GcseEdexcel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DBA2A7BAD3A001C2381 /* GcseEdexcel.swift */; };
+		BDEF5DBD2A7BAD51001C2381 /* GcseAqa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DBC2A7BAD51001C2381 /* GcseAqa.swift */; };
+		BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */; };
+		BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */; };
+		BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */; };
 		BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */; };
 		BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF926512A78FB8A00CDFBED /* ContentView.swift */; };
 		BDF926542A78FB8B00CDFBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF926532A78FB8B00CDFBED /* Assets.xcassets */; };
@@ -46,6 +55,15 @@
 		BDB87FFF2A7A98BE00B600AC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfEdu.swift; sourceTree = "<group>"; };
 		BDC5A0042A794FF200D55D83 /* ResourcePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePage.swift; sourceTree = "<group>"; };
+		BDEF5DB22A7BAC81001C2381 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		BDEF5DB42A7BAD00001C2381 /* AltPathwayResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltPathwayResources.swift; sourceTree = "<group>"; };
+		BDEF5DB62A7BAD18001C2381 /* UniResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniResources.swift; sourceTree = "<group>"; };
+		BDEF5DB82A7BAD29001C2381 /* AlevelResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlevelResources.swift; sourceTree = "<group>"; };
+		BDEF5DBA2A7BAD3A001C2381 /* GcseEdexcel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcseEdexcel.swift; sourceTree = "<group>"; };
+		BDEF5DBC2A7BAD51001C2381 /* GcseAqa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcseAqa.swift; sourceTree = "<group>"; };
+		BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcseView.swift; sourceTree = "<group>"; };
+		BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewResources.swift; sourceTree = "<group>"; };
+		BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePageApp.swift; sourceTree = "<group>"; };
 		BDF9264C2A78FB8A00CDFBED /* FinalProjectJACE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectJACE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF9264F2A78FB8A00CDFBED /* FinalProjectJACEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectJACEApp.swift; sourceTree = "<group>"; };
 		BDF926512A78FB8A00CDFBED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,8 +122,17 @@
 		BDB880022A7A9C5D00B600AC /* Resources Page */ = {
 			isa = PBXGroup;
 			children = (
-				BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */,
+				BDEF5DC22A7BADE9001C2381 /* ResourcePageApp.swift */,
 				BDC5A0042A794FF200D55D83 /* ResourcePage.swift */,
+				BDEF5DC02A7BADA5001C2381 /* ContentViewResources.swift */,
+				BDEF5DBE2A7BAD82001C2381 /* GcseView.swift */,
+				BDEF5DBC2A7BAD51001C2381 /* GcseAqa.swift */,
+				BDEF5DBA2A7BAD3A001C2381 /* GcseEdexcel.swift */,
+				BDEF5DB82A7BAD29001C2381 /* AlevelResources.swift */,
+				BDEF5DB62A7BAD18001C2381 /* UniResources.swift */,
+				BDEF5DB42A7BAD00001C2381 /* AltPathwayResources.swift */,
+				BDEF5DB22A7BAC81001C2381 /* ResourcesView.swift */,
+				BDC5A0022A794FC500D55D83 /* LevelOfEdu.swift */,
 			);
 			path = "Resources Page";
 			sourceTree = "<group>";
@@ -307,14 +334,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */,
+				BDEF5DB32A7BAC81001C2381 /* ResourcesView.swift in Sources */,
+				BDEF5DBB2A7BAD3A001C2381 /* GcseEdexcel.swift in Sources */,
 				BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */,
+				BDEF5DB52A7BAD00001C2381 /* AltPathwayResources.swift in Sources */,
 				BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */,
+				BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */,
 				BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */,
 				BDF926522A78FB8A00CDFBED /* ContentView.swift in Sources */,
 				BDC5A0032A794FC500D55D83 /* LevelOfEdu.swift in Sources */,
 				BDB87FFE2A7A988500B600AC /* SignInScreenView.swift in Sources */,
+				BDEF5DB92A7BAD29001C2381 /* AlevelResources.swift in Sources */,
+				BDEF5DC32A7BADE9001C2381 /* ResourcePageApp.swift in Sources */,
 				BDF926502A78FB8A00CDFBED /* FinalProjectJACEApp.swift in Sources */,
+				BDEF5DBD2A7BAD51001C2381 /* GcseAqa.swift in Sources */,
 				BD8B1AD92A7BA35B003BC1C0 /* HomePage.swift in Sources */,
+				BDEF5DB72A7BAD18001C2381 /* UniResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
