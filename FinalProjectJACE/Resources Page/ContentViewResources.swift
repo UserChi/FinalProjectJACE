@@ -62,7 +62,7 @@ struct ContentViewResources: View {
                                             .foregroundColor(Color("SecondaryColor")
                                     )}
                                 
-                                NavigationLink(destination: Timer()) {
+                                NavigationLink(destination: StopWatch()) {
                                     Image(systemName: "clock.fill")
                                         .foregroundColor(Color("SecondaryColor")
                                 )}
