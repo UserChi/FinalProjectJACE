@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0AC2432A7CEAA40097A719 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AC2422A7CEAA40097A719 /* ToDoList.swift */; };
+		BD0AC2472A7CF26C0097A719 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AC2462A7CF26C0097A719 /* Calendar.swift */; };
 		BD26BA9F2A794D17001DBD43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BA9E2A794D17001DBD43 /* SettingsView.swift */; };
 		BD4D1CCD2A7BE85300D4F3A9 /* toolbarswiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CCC2A7BE85300D4F3A9 /* toolbarswiftui.swift */; };
 		BD4D1CCF2A7BE8FF00D4F3A9 /* ToGetTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D1CCE2A7BE8FF00D4F3A9 /* ToGetTo.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0AC2422A7CEAA40097A719 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		BD0AC2462A7CF26C0097A719 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		BD26BA9E2A794D17001DBD43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BD4D1CCC2A7BE85300D4F3A9 /* toolbarswiftui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbarswiftui.swift; sourceTree = "<group>"; };
 		BD4D1CCE2A7BE8FF00D4F3A9 /* ToGetTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGetTo.swift; sourceTree = "<group>"; };
@@ -115,6 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0AC2412A7CEA6E0097A719 /* to do list */ = {
+			isa = PBXGroup;
+			children = (
+				BD0AC2422A7CEAA40097A719 /* ToDoList.swift */,
+			);
+			path = "to do list";
+			sourceTree = "<group>";
+		};
+		BD0AC2452A7CF2600097A719 /* Calander */ = {
+			isa = PBXGroup;
+			children = (
+				BD0AC2462A7CF26C0097A719 /* Calendar.swift */,
+			);
+			path = Calander;
+			sourceTree = "<group>";
+		};
 		BD4D1CC72A7BE7FF00D4F3A9 /* ToolBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +230,8 @@
 		BDF9264E2A78FB8A00CDFBED /* FinalProjectJACE */ = {
 			isa = PBXGroup;
 			children = (
+				BD0AC2452A7CF2600097A719 /* Calander */,
+				BD0AC2412A7CEA6E0097A719 /* to do list */,
 				BD4D1CD52A7BEDA100D4F3A9 /* Notes */,
 				BD4D1CD22A7BED4200D4F3A9 /* Clock */,
 				BD4D1CC72A7BE7FF00D4F3A9 /* ToolBar */,
@@ -381,12 +403,14 @@
 			files = (
 				BDEF5DBF2A7BAD82001C2381 /* GcseView.swift in Sources */,
 				BDEF5DB32A7BAC81001C2381 /* ResourcesView.swift in Sources */,
+				BD0AC2432A7CEAA40097A719 /* ToDoList.swift in Sources */,
 				BD4D1CCF2A7BE8FF00D4F3A9 /* ToGetTo.swift in Sources */,
 				BDEF5DBB2A7BAD3A001C2381 /* GcseEdexcel.swift in Sources */,
 				BDB880002A7A98BE00B600AC /* WelcomeScreenView.swift in Sources */,
 				BDEF5DB52A7BAD00001C2381 /* AltPathwayResources.swift in Sources */,
 				BDC5A0052A794FF200D55D83 /* ResourcePage.swift in Sources */,
 				BD8986D82A7BF1BF00EDCFAE /* etention.swift in Sources */,
+				BD0AC2472A7CF26C0097A719 /* Calendar.swift in Sources */,
 				BDEF5DC12A7BADA5001C2381 /* ContentViewResources.swift in Sources */,
 				BD4D1CD12A7BEB4D00D4F3A9 /* MentalHealth.swift in Sources */,
 				BD8986D62A7BF17100EDCFAE /* clocktimer.swift in Sources */,
