@@ -88,6 +88,8 @@ struct Notes: View {
                         }
                     }
                 }
+                .scrollContentBackground(.hidden)
+                .background(Color ("PrimaryColor"))
                 .alert(isPresented: $showAlert, content: {
                     alert
                 })

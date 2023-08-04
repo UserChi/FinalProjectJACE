@@ -64,10 +64,14 @@ struct SettingsView: View {
                                 .foregroundColor(Color.red)
                         }
                 }
+                //.foregroundColor(Color ("PrimaryColor"))
+                .scrollContentBackground(.hidden)
+                .background(Color ("PrimaryColor"))
                 .navigationTitle("Settings")
                 .foregroundColor(Color("SecondaryColor"))
                
             }
+            
             
         }
         

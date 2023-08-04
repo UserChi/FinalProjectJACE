@@ -51,6 +51,8 @@ struct ContentViewResources: View {
                                         .padding(.leading, 155)
                                 }
                             }
+                            .scrollContentBackground(.hidden)
+                            .background(Color ("PrimaryColor"))
                             
                         }
                         .navigationTitle("")
